@@ -97,7 +97,6 @@ h1 {
   margin: 0.67em 0;
 }
 
-
 mark {
   background: #ff0;
   color: #000;
@@ -373,12 +372,6 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
-
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 4em;
-    margin: 0.67em 0;
-  
 }
 
 h1 small,
@@ -460,8 +453,9 @@ h6 .small,
   font-size: 75%;
 }
 
-.article-title h1,.h1 {
-  font-size: 4.5em;
+h1,
+.h1 {
+  font-size: 30px;
 }
 
 h2,
@@ -3261,8 +3255,8 @@ body {
 
 body {
   padding-right: 0 !important;
-  font-family: "Source Code Pro",Tahoma,"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei Light","Microsoft YaHei","Source Han Sans CN","WenQuanYi Micro Hei",Arial,sans-serif;
-  font-size: 15px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size: 14px;
   line-height: 1.42857;
   color: #333333;
   background-color: #fff;
@@ -9197,6 +9191,13 @@ body.okayNav-loaded {
   }
 }
 
-.article-list .article-title{
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.article-list .article-title {
   font-size: 1em;
+}
+.main .content h1{
+  font-size: 4.5em;
 }
